@@ -7,4 +7,7 @@ install:
     - make
 
 script:
-    - ls
+    - ./tutorial.exe
+    - ./tutorial.exe 2
+    - ./tutorial.exe 9
+    - ./tutorial.exe 123098123
