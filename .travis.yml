@@ -5,9 +5,10 @@ os: linux
 install:
     - cmake .
     - make
+    - make install
 
 script:
-    - ./tutorial.exe
+    - which tutorial.exe
     - ./tutorial.exe 2
     - ./tutorial.exe 9
     - ./tutorial.exe 123098123
