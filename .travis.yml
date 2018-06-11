@@ -8,7 +8,7 @@ install:
     - make install
 
 script:
-    - which tutorial.exe
-    - ./tutorial.exe 2
-    - ./tutorial.exe 9
-    - ./tutorial.exe 123098123
+    - which tutorial
+    - ./tutorial 2
+    - ./tutorial 9
+    - ./tutorial 123098123

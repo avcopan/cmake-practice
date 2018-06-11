@@ -1,1 +1,2 @@
-add_executable(tutorial.exe tutorial.cxx)
+project (tutorial)
+add_executable(tutorial tutorial.cxx)
