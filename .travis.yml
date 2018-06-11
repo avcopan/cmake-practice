@@ -5,7 +5,7 @@ os: linux
 install:
     - cmake .
     - make
-    - make install
+    - sudo make install
 
 script:
     - which tutorial
