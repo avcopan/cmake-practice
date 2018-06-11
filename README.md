@@ -1,0 +1,6 @@
+# cmake-practice
+
+```
+cmake
+make
+```
