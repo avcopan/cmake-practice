@@ -1,6 +1,6 @@
 # cmake-practice
 
 ```
-cmake
+cmake .
 make
 ```

@@ -1,0 +1,8 @@
+language: cpp
+
+os: linux
+
+script:
+    - echo "HI"
+    - which gcc
+    - which cmake
