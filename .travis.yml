@@ -2,7 +2,9 @@ language: cpp
 
 os: linux
 
+install:
+    - cmake .
+    - make
+
 script:
-    - echo "HI"
-    - which gcc
-    - which cmake
+    - ls
